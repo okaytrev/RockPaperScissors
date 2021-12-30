@@ -29,16 +29,13 @@
 }
 */
 body {
-    display: flex;
     background-color: black;
     color: #0099ff;
+    display: flex;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 26px;
     height: 100vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin: 0;
   }
